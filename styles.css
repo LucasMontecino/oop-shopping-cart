@@ -21,17 +21,25 @@
 
 body {
     background-color: var(--dark-grey);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 
 .title {
     color: var(--light-grey);
     text-align: center;
-    margin: 25px 0;
+    font-size: 56px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    background-color: var(--gold);
+    padding: 32px;
 }
+
 
 #dessert-card-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -65,8 +73,8 @@ body {
 
 #cart-btn {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 140px;
+    right: 10px;
 }
 
 .add-to-cart-btn {
@@ -76,7 +84,7 @@ body {
 #cart-container {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 165px;
     right: 0;
     background-color: var(--light-grey);
     width: 200px;
